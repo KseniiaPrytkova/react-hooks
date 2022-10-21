@@ -1,4 +1,3 @@
-import { type } from "@testing-library/user-event/dist/type";
 import { useReducer } from "react";
 import { HIDE_ALERT, SHOW_ALERT } from "../types";
 import { AlertContext } from "./alertContext";
