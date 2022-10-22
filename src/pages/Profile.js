@@ -36,7 +36,11 @@ export const Profile = () => {
 
 	return (
 		<Fragment>
-			<Link to="/" className="btn btn-link">
+			<Link
+				to="/"
+				className="btn btn-link"
+				style={{ textDecoration: "none" }}
+			>
 				Back Home
 			</Link>
 
@@ -92,6 +96,7 @@ export const Profile = () => {
 											href={blog}
 											target="_blank"
 											rel="noreferrer"
+											style={{ textDecoration: "none" }}
 										>
 											{blog}
 										</a>
